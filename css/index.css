@@ -18,6 +18,12 @@ body .carousel .carousel-inner .carousel-item {
     animation: fadeInAnimation ease-in 0.7s;
 }
 
+video {
+    object-fit: cover;
+    position: fixed;
+    width: fit-content;
+    height: 100%;
+}
 
 
 @keyframes fadeInAnimation {

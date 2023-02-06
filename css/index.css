@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #23120B;
+}
+
+.navbar-logo {
+    width: 190px;
+}
+
+body .carousel .carousel-inner .carousel-item {
+    height: 100vh;
+}
+
+.carousel-fade .carousel-item {
+    opacity: 1;
+    transition-duration: 1s;
+    transition-property: opacity;
+
+    animation: fadeInAnimation ease-in 0.7s;
+}
+
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
